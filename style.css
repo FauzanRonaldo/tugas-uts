@@ -5,6 +5,7 @@
 
 body{
 	font-family: 'Poppins', monospace;
+	background-color: #a8e8f9;
 }
 body, ul{
 	margin: 0;
@@ -13,7 +14,15 @@ body, ul{
 
 h1,h2, .skill-list {
 	font-family: 'panic', serif;
+	color: #00537a;
+}
 
+.white {
+	color: #fff;
+}
+
+.orange {
+	color: #f5a201;
 }
 
 img{
@@ -27,11 +36,13 @@ img{
 	height: 30rem !important;
 	object-fit: cover;
 }
+
 nav{
-	background-color: #264253;
+	background-color: #013c58;
 	position: fixed;
 	z-index: 1;
 	width: 100%;
+	filter: drop-shadow(0px 5px 15px rgba(0,0,0,0.2));
 }
 header{
 	top:70px;
@@ -122,7 +133,7 @@ figcaption{
 }
 
 .blue{
-	background-color: #DBEBF4;
+	background-color: #013c58;
 }
 
 .project .button{
@@ -155,4 +166,8 @@ nav li a{
 }
 nav li a:hover{
 	text-decoration: underline;
+}
+
+.project-container {
+	background-color: #a8e8f9 !important;
 }
